@@ -37,7 +37,7 @@ So far the only type of data object in R you have encountered is a `data.frame` 
 
 ## Types of vectors
 
-![Figure 20.1 from [*R for Data Science*](http://r4ds.had.co.nz/vectors.html)](https://r4ds.had.co.nz/diagrams/data-structures-overview.png)
+![](https://r4ds.had.co.nz/diagrams/data-structures-overview.png)<!-- -->
 
 There are two categories of vectors:
 
@@ -590,7 +590,7 @@ str(x)
     ## [1] 1 2 3
     ```
 
-![Figure 20.2 from [R for Data Science](http://r4ds.had.co.nz/vectors.html#fig:lists-subsetting)](https://r4ds.had.co.nz/diagrams/lists-subsetting.png)
+![](https://r4ds.had.co.nz/diagrams/lists-subsetting.png)<!-- -->
 
 {{% callout note %}}
 
@@ -737,7 +737,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       America/Chicago             
-##  date     2021-01-05                  
+##  date     2021-01-06                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version date       lib source        
@@ -749,6 +749,7 @@ devtools::session_info()
 ##  callr         3.5.1   2020-10-13 [1] CRAN (R 4.0.2)
 ##  cellranger    1.1.0   2016-07-27 [1] CRAN (R 4.0.0)
 ##  cli           2.2.0   2020-11-20 [1] CRAN (R 4.0.2)
+##  codetools     0.2-18  2020-11-04 [1] CRAN (R 4.0.2)
 ##  colorspace    2.0-0   2020-11-11 [1] CRAN (R 4.0.2)
 ##  crayon        1.3.4   2017-09-16 [1] CRAN (R 4.0.0)
 ##  DBI           1.1.0   2019-12-15 [1] CRAN (R 4.0.0)

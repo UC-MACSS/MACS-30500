@@ -22,7 +22,7 @@ library(tidyverse)
 library(nycflights13)
 ```
 
-![Data science workflow](/img/data-science.png)
+![](/img/data-science.png)<!-- -->
 
 Rarely will your data arrive in exactly the form you require in order to analyze it appropriately. As part of the data science workflow you will need to **transform** your data in order to analyze it. Just as we established a syntax for generating graphics (the **layered grammar of graphics**), so too will we have a syntax for data transformation.
 
@@ -32,7 +32,7 @@ From the same author of `ggplot2`, I give you `dplyr`! This package contains use
 1. Subsequent arguments describe what to do with the data frame
 1. The result is a new data frame
 
-![Artwork by @allison_horst](/img/allison_horst_art/dplyr_wrangling.png) 
+![](/img/allison_horst_art/dplyr_wrangling.png)<!-- -->
 
 ## Key functions in `dplyr`
 
@@ -46,7 +46,7 @@ From the same author of `ggplot2`, I give you `dplyr`! This package contains use
 `group_by()`    | Changes the unit of analysis from the complete dataset to individual groups
 `summarize()`   | Collapses the data frame to a smaller number of rows which summarize the larger data
 
-![Artwork by @allison_horst](/img/allison_horst_art/dplyr_mutate.png)
+![](/img/allison_horst_art/dplyr_mutate.png)<!-- -->
 
 These are the basic verbs you will use to transform your data. By combining them together, you can perform powerful data manipulation tasks.
 
@@ -115,7 +115,7 @@ diamonds_ideal <- filter(.data = diamonds, cut == "Ideal")  # saved, but not pri
 ## # … with 21,541 more rows
 ```
 
-![Artwork by @allison_horst](/img/allison_horst_art/dplyr_filter.jpg)
+![](/img/allison_horst_art/dplyr_filter.jpg)<!-- -->
 
 {{% callout note %}}
 
@@ -448,7 +448,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       America/Chicago             
-##  date     2021-01-05                  
+##  date     2021-01-06                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package      * version date       lib source        
@@ -460,6 +460,7 @@ devtools::session_info()
 ##  callr          3.5.1   2020-10-13 [1] CRAN (R 4.0.2)
 ##  cellranger     1.1.0   2016-07-27 [1] CRAN (R 4.0.0)
 ##  cli            2.2.0   2020-11-20 [1] CRAN (R 4.0.2)
+##  codetools      0.2-18  2020-11-04 [1] CRAN (R 4.0.2)
 ##  colorspace     2.0-0   2020-11-11 [1] CRAN (R 4.0.2)
 ##  crayon         1.3.4   2017-09-16 [1] CRAN (R 4.0.0)
 ##  DBI            1.1.0   2019-12-15 [1] CRAN (R 4.0.0)

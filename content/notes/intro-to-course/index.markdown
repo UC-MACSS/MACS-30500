@@ -176,7 +176,7 @@ Each assignment will be evaluated by myself or the TA, as well as by *two peers*
 
 ## The computational social science workflow
 
-![Data science workflow. Source: [R for Data Science](http://r4ds.had.co.nz/) by Garrett Grolemund and Hadley Wickham.](/img/data-science.png)
+![](/img/data-science.png)<!-- -->
 
 Computationally driven research follows a specific workflow. This is the ideal - in this course, I want to illustrate and explain to you why each stage is important and how to do it.
 
@@ -226,21 +226,21 @@ Virtually all programs are built using these fundamental components. Obviously t
 
 A **graphical user interface (GUI)** is a visual way of interacting with a computer using elements such as a mouse, icons, and menus.
 
-![Windows 3.1](/img/windows_3.1.png)
+![](/img/windows_3.1.png)<!-- -->
 
-![Mac OSX](/img/mac_os_x.png)
+![](/img/mac_os_x.png)<!-- -->
 
-![Android operating system](/img/android_phones.jpg)
+![](/img/android_phones.jpg)<!-- -->
 
 GUI software runs using all the basic programming elements, but the end user is not aware of any of this. Instructions in GUI software are **implicit** to the user, whereas programming requires the user to make instructions **explicit**.
 
-![Programming in [the shell](/setup/shell/)](/img/shell.png)
+![](/img/shell.png)<!-- -->
 
 ## Benefits to programming vs. GUI software
 
 Let's demonstrate why you should want to learn to program.^[Example drawn from [*Code and Data for the Social Sciences: A Practitioner's Guide*](https://people.stanford.edu/gentzkow/sites/default/files/codeanddata.pdf).] What are the advantages over GUI software, such as Stata?
 
-![Stata](/img/stata14.png)
+![](/img/stata14.png)<!-- -->
 
 Here is a hypothetical assignment for a UChicago undergrad:
 
@@ -252,7 +252,7 @@ Let's see how two students (Jane and Sally) would complete this. Jane will use s
 
 1. Jane finds data files online with total annual ice cream sales in the 50 largest U.S. cities from 2001-2010 and total numbers of crimes (by type) for the 50 largest U.S. cities from 2001-2010. She gets them as spreadsheets and downloads them to her computer, saving them in her main `Downloads` folder which includes everything she's downloaded over the past three years. It probably looks something like this:
 
-    ![](/img/downloads_folder.png)
+    ![](/img/downloads_folder.png)<!-- -->
 
 1. Jane opens the files in Excel.
     * Ice cream sales - frozen yogurt is not ice cream. She deletes the column for frozen yogurt sales.
@@ -311,11 +311,11 @@ Many of you are probably familiar with cloud storage systems like Dropbox or Goo
 
 If you make a change and realize you don't want to keep it, you can rollback to a previous version of the repository - or even an individual file - without hassle because the VCS already contains a log of every change. VCS can be implemented locally on a single computer:
 
-![VCS on a local computer](https://git-scm.com/book/en/v2/book/01-introduction/images/local.png)
+![](https://git-scm.com/book/en/v2/book/01-introduction/images/local.png)<!-- -->
 
 Or in conjunction with remote servers to store backups of your repository:
 
-![VCS with a server](https://git-scm.com/book/en/v2/book/01-introduction/images/distributed.png)
+![](https://git-scm.com/book/en/v2/book/01-introduction/images/distributed.png)<!-- -->
 
 If Jane wanted to rollback to an earlier implementation of her linear regression model, she'd have to remember exactly what her settings were. However all Sally needs to do is use VCS when she revises her programs. Then to rollback to an earlier model formulation she just needs to find the earlier version of her program which generates that model.
 
@@ -397,7 +397,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       America/Chicago             
-##  date     2021-01-05                  
+##  date     2021-01-06                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version date       lib source        

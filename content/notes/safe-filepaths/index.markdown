@@ -30,7 +30,7 @@ How can you avoid `setwd()` at the top of every script?
 * Use the `here()` function from the [`here` package](https://CRAN.R-project.org/package=here) to build the path when you read or write a file. Create paths relative to the top-level directory.
 * Whenever you work on this project, launch the R process from the project's top-level directory.
 
-![Artwork by @allison_horst](/img/allison_horst_art/here.png)
+![](/img/allison_horst_art/here.png)<!-- -->
   
 ## How to use the `here` package
 
@@ -117,7 +117,7 @@ Here are the criteria. The order doesn't really matter because all of them are c
 * Is this an RStudio Project? Literally, can I find a file named something like `foo.Rproj`?
 * Is this a checkout from a version control system? Does it have a directory named `.git` or `.svn`? Currently, only Git and Subversion are supported.
 
-![Artwork by @allsion_horst](/img/allison_horst_art/cracked_setwd.png)
+![](/img/allison_horst_art/cracked_setwd.png)<!-- -->
 
 ## Filepaths and R Markdown documents
 
@@ -160,7 +160,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       America/Chicago             
-##  date     2021-01-05                  
+##  date     2021-01-06                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version date       lib source        
@@ -172,6 +172,7 @@ devtools::session_info()
 ##  callr         3.5.1   2020-10-13 [1] CRAN (R 4.0.2)
 ##  cellranger    1.1.0   2016-07-27 [1] CRAN (R 4.0.0)
 ##  cli           2.2.0   2020-11-20 [1] CRAN (R 4.0.2)
+##  codetools     0.2-18  2020-11-04 [1] CRAN (R 4.0.2)
 ##  colorspace    2.0-0   2020-11-11 [1] CRAN (R 4.0.2)
 ##  crayon        1.3.4   2017-09-16 [1] CRAN (R 4.0.0)
 ##  DBI           1.1.0   2019-12-15 [1] CRAN (R 4.0.0)
@@ -190,7 +191,7 @@ devtools::session_info()
 ##  glue          1.4.2   2020-08-27 [1] CRAN (R 4.0.2)
 ##  gtable        0.3.0   2019-03-25 [1] CRAN (R 4.0.0)
 ##  haven         2.3.1   2020-06-01 [1] CRAN (R 4.0.0)
-##  here          1.0.1   2020-12-13 [1] CRAN (R 4.0.2)
+##  here        * 1.0.1   2020-12-13 [1] CRAN (R 4.0.2)
 ##  hms           0.5.3   2020-01-08 [1] CRAN (R 4.0.0)
 ##  htmltools     0.5.0   2020-06-16 [1] CRAN (R 4.0.2)
 ##  httr          1.4.2   2020-07-20 [1] CRAN (R 4.0.2)

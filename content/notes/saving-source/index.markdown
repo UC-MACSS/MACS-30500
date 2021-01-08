@@ -32,7 +32,7 @@ Your **workspace** in R is the current working environment. It includes any libr
 
 Everything that really matters should be achieved through code that you save.
 
-![](/img/if-you-liked-it-you-should-have-saved-the-source-for-it.jpg)
+![](/img/if-you-liked-it-you-should-have-saved-the-source-for-it.jpg)<!-- -->
 
 All important objects or figures should be explicitly saved to file, in a granular way. This is in contrast to storing them implicitly or explicitly, as part of an entire workspace, or saving them via the mouse. These recommendations make useful objects readily available for use in other scripts or documents, with the additional assurance that they can be regenerated on-demand.
 
@@ -48,7 +48,7 @@ When you quit R, do not save the workspace to an `.Rdata` file. When you launch,
 
 In RStudio, set this via *Tools > Global Options*.
 
-![](/img/rstudio-workspace.png)
+![](/img/rstudio-workspace.png)<!-- -->
 
 ## Restart R often during development
 
@@ -122,7 +122,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       America/Chicago             
-##  date     2021-01-05                  
+##  date     2021-01-06                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version date       lib source        
@@ -134,6 +134,7 @@ devtools::session_info()
 ##  callr         3.5.1   2020-10-13 [1] CRAN (R 4.0.2)
 ##  cellranger    1.1.0   2016-07-27 [1] CRAN (R 4.0.0)
 ##  cli           2.2.0   2020-11-20 [1] CRAN (R 4.0.2)
+##  codetools     0.2-18  2020-11-04 [1] CRAN (R 4.0.2)
 ##  colorspace    2.0-0   2020-11-11 [1] CRAN (R 4.0.2)
 ##  crayon        1.3.4   2017-09-16 [1] CRAN (R 4.0.0)
 ##  DBI           1.1.0   2019-12-15 [1] CRAN (R 4.0.0)

@@ -23,7 +23,9 @@ library(tidyverse)
 library(nycflights13)
 ```
 
-![Data science workflow](/img/data-science.png)
+```{r data-science-workflow, fig.cap = 'Data science workflow', echo = FALSE}
+knitr::include_graphics(path = "/img/data-science.png", error = FALSE)
+```
 
 Rarely will your data arrive in exactly the form you require in order to analyze it appropriately. As part of the data science workflow you will need to **transform** your data in order to analyze it. Just as we established a syntax for generating graphics (the **layered grammar of graphics**), so too will we have a syntax for data transformation.
 
@@ -33,7 +35,9 @@ From the same author of `ggplot2`, I give you `dplyr`! This package contains use
 1. Subsequent arguments describe what to do with the data frame
 1. The result is a new data frame
 
-![Artwork by @allison_horst](/img/allison_horst_art/dplyr_wrangling.png) 
+```{r artwork-by-allison-horst-1, echo = FALSE}
+knitr::include_graphics(path = "/img/allison_horst_art/dplyr_wrangling.png", error = FALSE)
+```
 
 ## Key functions in `dplyr`
 
@@ -47,7 +51,9 @@ From the same author of `ggplot2`, I give you `dplyr`! This package contains use
 `group_by()`    | Changes the unit of analysis from the complete dataset to individual groups
 `summarize()`   | Collapses the data frame to a smaller number of rows which summarize the larger data
 
-![Artwork by @allison_horst](/img/allison_horst_art/dplyr_mutate.png)
+```{r artwork-by-allison-horst-2, echo = FALSE}
+knitr::include_graphics(path = "/img/allison_horst_art/dplyr_mutate.png", error = FALSE)
+```
 
 These are the basic verbs you will use to transform your data. By combining them together, you can perform powerful data manipulation tasks.
 
@@ -78,7 +84,9 @@ diamonds_ideal <- filter(.data = diamonds, cut == "Ideal")  # saved, but not pri
 (diamonds_ideal <- filter(.data = diamonds, cut == "Ideal"))  # saved and printed
 ```
 
-![Artwork by @allison_horst](/img/allison_horst_art/dplyr_filter.jpg)
+```{r artwork-by-allison-horst-3, echo = FALSE}
+knitr::include_graphics(path = "/img/allison_horst_art/dplyr_filter.jpg", error = FALSE)
+```
 
 {{% callout note %}}
 

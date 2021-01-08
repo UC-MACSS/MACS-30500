@@ -29,7 +29,7 @@ There are three rules which make a dataset **tidy**:
 2. Each observation must have its own row.
 3. Each value must have its own cell.
 
-![Figure 12.1 from [*R for Data Science*](http://r4ds.had.co.nz)](https://r4ds.had.co.nz/images/tidy-1.png)
+![](https://r4ds.had.co.nz/images/tidy-1.png)<!-- -->
 
 ## Pivoting in `tidyr`
 
@@ -39,9 +39,9 @@ Most data you encounter in the wild is stored in an untidy format. To tidy the d
 1. Fix the dataset so the observations are in rows and variables are in columns. Typically there is one of two problems in the data.
     1. One variable might be spread across multiple columns.
     1. One observation may be scattered across multiple rows.
-    
-![Artwork by @allison_horst](/img/allison_horst_art/tidydata_1.jpg)
-    
+
+![](/img/allison_horst_art/tidydata_1.jpg)<!-- -->
+
 Let's review the different tasks for tidying data using the R for Data Science `gapminder` subset. This is the data in a tidy format:
 
 
@@ -67,7 +67,7 @@ Note that in this data frame, each variable is in its own column (`country`, `ye
 
 `tidyr` contains two major functions that can be used to tidy datasets. `pivot_longer()` makes datasets **longer** by increasing the number of rows and decreasing the number of columns. Many datasets you obtain are optimized for ease of data entry or ease of comparison rather than ease of analysis. This means data is typically stored messy with more columns than necessary.
 
-![Artwork by @allison_horst](/img/allison_horst_art/tidydata_2.jpg)
+![](/img/allison_horst_art/tidydata_2.jpg)<!-- -->
 
 For example, this version of `table1` is not tidy because the `year` variable is spread across multiple columns:
 
@@ -167,7 +167,7 @@ table2 %>%
 
 Since `type` and `count` are already columns that exist in `table2`, we don't have to write them as character strings inside quotation marks.
 
-![Artwork by @allison_horst](/img/allison_horst_art/tidydata_4.jpg)
+![](/img/allison_horst_art/tidydata_4.jpg)<!-- -->
 
 ## Separating
 
@@ -269,7 +269,7 @@ table5 %>%
 ## 6 China       2000  213766/1280428583
 ```
 
-![Artwork by @allsion_horst](/img/allison_horst_art/tidydata_7.jpg)
+![](/img/allison_horst_art/tidydata_7.jpg)<!-- -->
 
 ## Acknowledgments
 
@@ -294,7 +294,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       America/Chicago             
-##  date     2021-01-05                  
+##  date     2021-01-06                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version date       lib source        

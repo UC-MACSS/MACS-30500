@@ -40,7 +40,7 @@ What if data is present on a website, but isn't provided in an API at all? It is
 
 HTML is a structured way of displaying information. It is very similar in structure to XML (in fact many modern html sites are actually XHTML5, [which is also valid XML](http://www.w3.org/TR/html5/the-xhtml-syntax.html))
 
-![[tags](https://xkcd.com/1144/)](https://imgs.xkcd.com/comics/tags.png)
+![](https://imgs.xkcd.com/comics/tags.png)<!-- -->
 
 ## Process
 
@@ -147,13 +147,13 @@ Let's say we want to find the content "here". Which tag in our sample HTML code 
 
 Navigate to [the IMDB page for *Frozen*](http://www.imdb.com/title/tt2294629/) and open the source code. Locate the piece of HTML that inserts "Kristen Bell" into the cast section. Which HTML tag surrounds her name?
 
-![IMDB page for *Frozen*](/img/frozen_bell.png)
+![](/img/frozen_bell.png)<!-- -->
 
 <details> 
   <summary>Click for the solution</summary>
   <p>
 
-![HTML tag for "Kristen Bell"](/img/frozen_span.png)
+![](/img/frozen_span.png)<!-- -->
 
 "Kristen Bell" is enclosed in the `span` tag. But look through the some of the other source code. `span` is used many times throughout the page. How can we select just the element containing "Kristen Bell", or all the cast member names but nothing else?
     
@@ -166,11 +166,11 @@ Navigate to [the IMDB page for *Frozen*](http://www.imdb.com/title/tt2294629/) a
 
 ##### HTML
 
-![HTML only](/img/shiny-css-none.png)
+![](/img/shiny-css-none.png)<!-- -->
 
 ##### HTML + CSS
 
-![HTML + CSS](/img/shiny-css.png)
+![](/img/shiny-css.png)<!-- -->
 
 ## CSS code
 
@@ -244,7 +244,7 @@ none   | tag
 
 Which CSS identifiers are associated with Kristen Bell's name in the *Frozen* page? Write a CSS selector that targets them.
 
-![](/img/frozen_css.png)
+![](/img/frozen_css.png)<!-- -->
 
 <details> 
   <summary>Click for the solution</summary>
@@ -642,7 +642,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       America/Chicago             
-##  date     2021-01-05                  
+##  date     2021-01-06                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version date       lib source        
@@ -654,6 +654,7 @@ devtools::session_info()
 ##  callr         3.5.1   2020-10-13 [1] CRAN (R 4.0.2)
 ##  cellranger    1.1.0   2016-07-27 [1] CRAN (R 4.0.0)
 ##  cli           2.2.0   2020-11-20 [1] CRAN (R 4.0.2)
+##  codetools     0.2-18  2020-11-04 [1] CRAN (R 4.0.2)
 ##  colorspace    2.0-0   2020-11-11 [1] CRAN (R 4.0.2)
 ##  crayon        1.3.4   2017-09-16 [1] CRAN (R 4.0.0)
 ##  DBI           1.1.0   2019-12-15 [1] CRAN (R 4.0.0)

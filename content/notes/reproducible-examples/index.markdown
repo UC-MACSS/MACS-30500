@@ -117,8 +117,7 @@ To ensure your example is a reproducible example, you need to make sure to load 
 * Ensure portability of the code
     * Don't use [`rm(list = ls())`](/notes/saving-source/#what-s-wrong-with-rm-list-ls) or [`setwd()`](/notes/project-oriented-workflow/#we-need-to-talk-about-setwd-path-that-only-works-on-my-machine).
 
-
-![Artwork by @allison_horst](/img/allison_horst_art/reprex.png)
+![](/img/allison_horst_art/reprex.png)<!-- -->
 
 ## Acknowledgments
 
@@ -145,7 +144,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       America/Chicago             
-##  date     2021-01-05                  
+##  date     2021-01-06                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version date       lib source        
@@ -154,6 +153,7 @@ devtools::session_info()
 ##  bookdown      0.21    2020-10-13 [1] CRAN (R 4.0.2)
 ##  callr         3.5.1   2020-10-13 [1] CRAN (R 4.0.2)
 ##  cli           2.2.0   2020-11-20 [1] CRAN (R 4.0.2)
+##  codetools     0.2-18  2020-11-04 [1] CRAN (R 4.0.2)
 ##  crayon        1.3.4   2017-09-16 [1] CRAN (R 4.0.0)
 ##  desc          1.2.0   2018-05-01 [1] CRAN (R 4.0.0)
 ##  devtools      2.3.2   2020-09-18 [1] CRAN (R 4.0.2)
@@ -177,6 +177,7 @@ devtools::session_info()
 ##  purrr         0.3.4   2020-04-17 [1] CRAN (R 4.0.0)
 ##  R6            2.5.0   2020-10-28 [1] CRAN (R 4.0.2)
 ##  remotes       2.2.0   2020-07-21 [1] CRAN (R 4.0.2)
+##  reprex      * 0.3.0   2019-05-16 [1] CRAN (R 4.0.0)
 ##  rlang         0.4.10  2020-12-30 [1] CRAN (R 4.0.2)
 ##  rmarkdown     2.6     2020-12-14 [1] CRAN (R 4.0.2)
 ##  rprojroot     2.0.2   2020-11-15 [1] CRAN (R 4.0.2)

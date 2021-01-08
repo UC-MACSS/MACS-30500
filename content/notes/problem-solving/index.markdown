@@ -22,9 +22,9 @@ library(tidyverse)
 library(palmerpenguins)
 ```
 
-![Professor X from *X-Men* (the Patrick Stewart version, not James Mcavoy)](/img/xmen_xavier.jpg)
+![](/img/xmen_xavier.jpg)<!-- -->
 
-[![*Computer Problems*. XKCD.](/img/xkcd_computer_problems.png)](https://xkcd.com/722/)
+![](/img/xkcd_computer_problems.png)<!-- -->
 
 Computers are not mind-reading machines. They are very efficient at certain tasks, and can perform calculations thousands of times faster than any human. But they are also very dumb: they can only do what you tell them to do. If you are not explicit about what you want the computer to do, or you misspeak and tell the computer to do the wrong thing, it will not correct you.
 
@@ -32,7 +32,7 @@ In order to translate your goal for the program into clear instructions for the 
 
 ## Decomposing problems using `penguins`
 
-![Meet the Palmer penguins](/img/lter_penguins.png)
+![](/img/lter_penguins.png)<!-- -->
 
 
 ```r
@@ -183,7 +183,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       America/Chicago             
-##  date     2021-01-05                  
+##  date     2021-01-06                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package        * version date       lib source        
@@ -195,6 +195,7 @@ devtools::session_info()
 ##  callr            3.5.1   2020-10-13 [1] CRAN (R 4.0.2)
 ##  cellranger       1.1.0   2016-07-27 [1] CRAN (R 4.0.0)
 ##  cli              2.2.0   2020-11-20 [1] CRAN (R 4.0.2)
+##  codetools        0.2-18  2020-11-04 [1] CRAN (R 4.0.2)
 ##  colorspace       2.0-0   2020-11-11 [1] CRAN (R 4.0.2)
 ##  crayon           1.3.4   2017-09-16 [1] CRAN (R 4.0.0)
 ##  DBI              1.1.0   2019-12-15 [1] CRAN (R 4.0.0)

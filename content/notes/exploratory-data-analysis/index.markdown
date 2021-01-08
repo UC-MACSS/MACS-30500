@@ -38,7 +38,7 @@ EDA relies heavily on visualizations and graphical interpretations of data. Whil
 
 ## Characteristics of exploratory graphs
 
-![Artwork by @allison_horst](/img/allison_horst_art/ggplot2_exploratory.png)
+![](/img/allison_horst_art/ggplot2_exploratory.png)<!-- -->
 
 Graphs generated through EDA are distinct from final graphs. You will typically generate dozens, if not hundreds, of exploratory graphs in the course of analyzing a dataset. Of these graphs, you may end up publishing one or two in a final format. One purpose of EDA is to develop a personal understanding of the data, so all your code and graphs should be geared towards that purpose. Important details that you might add if you were to publish a graph^[In perhaps an academic journal, or maybe a homework submission.] are not necessary in an exploratory graph. For example, say I want to explore how the flipper length of a penguin varies with it's body mass size. An appropriate technique would be a scatterplot:
 
@@ -71,7 +71,7 @@ ggplot(data = penguins,
 
 These additional details are very helpful in communicating the meaning of the graph, but take a substantial amount of time and code to write. For EDA, you don't have to add this detail to every exploratory graph.
 
-![Artwork by @allison_horst](/img/allison_horst_art/presenting_monster.png)
+![](/img/allison_horst_art/presenting_monster.png)<!-- -->
 
 ## Scorecard
 
@@ -349,7 +349,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       America/Chicago             
-##  date     2021-01-05                  
+##  date     2021-01-06                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package        * version date       lib source        
@@ -361,6 +361,7 @@ devtools::session_info()
 ##  callr            3.5.1   2020-10-13 [1] CRAN (R 4.0.2)
 ##  cellranger       1.1.0   2016-07-27 [1] CRAN (R 4.0.0)
 ##  cli              2.2.0   2020-11-20 [1] CRAN (R 4.0.2)
+##  codetools        0.2-18  2020-11-04 [1] CRAN (R 4.0.2)
 ##  colorspace       2.0-0   2020-11-11 [1] CRAN (R 4.0.2)
 ##  crayon           1.3.4   2017-09-16 [1] CRAN (R 4.0.0)
 ##  DBI              1.1.0   2019-12-15 [1] CRAN (R 4.0.0)
@@ -401,6 +402,7 @@ devtools::session_info()
 ##  ps               1.5.0   2020-12-05 [1] CRAN (R 4.0.2)
 ##  purrr          * 0.3.4   2020-04-17 [1] CRAN (R 4.0.0)
 ##  R6               2.5.0   2020-10-28 [1] CRAN (R 4.0.2)
+##  rcfss          * 0.2.1   2020-12-08 [1] local         
 ##  Rcpp             1.0.5   2020-07-06 [1] CRAN (R 4.0.2)
 ##  readr          * 1.4.0   2020-10-05 [1] CRAN (R 4.0.2)
 ##  readxl           1.3.1   2019-03-13 [1] CRAN (R 4.0.0)

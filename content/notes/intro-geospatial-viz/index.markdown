@@ -22,7 +22,7 @@ menu:
 
 ## John Snow and the Broad Street water pump
 
-[![Original map made by John Snow in 1854. Cholera cases are highlighted in black. Source: Wikipedia.](https://upload.wikimedia.org/wikipedia/commons/2/27/Snow-cholera-map-1.jpg)](https://commons.wikimedia.org/wiki/File:Snow-cholera-map-1.jpg)
+![](https://upload.wikimedia.org/wikipedia/commons/2/27/Snow-cholera-map-1.jpg)<!-- -->
 
 In the nineteenth century the theory of bacteria was not widely accepted by the medical community or the public.^[Drawn from [John Snow and the Broad Street Pump](http://www.ph.ucla.edu/epi/snow/snowcricketarticle.html)] A mother washed her baby's diaper in a well in 1854 in London, sparking an outbreak of **cholera**, an intestinal disease that causes vomiting, diarrhea, and eventually death. This disease had presented itself previously in London but its cause was still unknown.
 
@@ -30,9 +30,9 @@ Dr. John Snow lived in Soho, the suburb of London where the disease manifested i
 
 ## *Carte figurative des pertes successives en hommes de l'Armée Française dans la campagne de Russie 1812-1813)*
 
-[![Charles Minard's 1869 chart showing the number of men in Napoleon’s 1812 Russian campaign army, their movements, as well as the temperature they encountered on the return path. Source: Wikipedia.](https://upload.wikimedia.org/wikipedia/commons/2/29/Minard.png)](https://en.wikipedia.org/wiki/File:Minard.png)
+![](https://upload.wikimedia.org/wikipedia/commons/2/29/Minard.png)<!-- -->
 
-[![English translation of Minard's map](https://upload.wikimedia.org/wikipedia/commons/e/e2/Minard_Update.png)](https://commons.wikimedia.org/wiki/File:Minard_Update.png)
+![](https://upload.wikimedia.org/wikipedia/commons/e/e2/Minard_Update.png)<!-- -->
 
 This illustration is identifed in Edward Tufte's **The Visual Display of Quantitative Information** as one of "the best statistical drawings ever created". It also demonstrates a very important rule of warfare: [never invade Russia in the winter](https://en.wikipedia.org/wiki/Russian_Winter).
 
@@ -59,7 +59,7 @@ What makes this such an effective visualization?^[Source: [Dataviz History: Char
 
 Geometric visualizations are used to depict spatial features, and with the incorporation of data reveal additional attributes and information. The main features of a map are defined by its **scale** (the proportion between distances and sizes on the map), its **projection** (how the three-dimensional Earth is represented on a two-dimensional surface), and its **symbols** (how data is depicted and visualized on the map).
 
-![Artwork by @allison_horst](/img/allison_horst_art/sf.png)
+![](/img/allison_horst_art/sf.png)<!-- -->
 
 ## Scale
 
@@ -114,6 +114,7 @@ Data maps do not just encode geographic features on the visualization. They also
 
 ## Acknowledgments
 
+* Artwork by [@allison_horst](https://github.com/allisonhorst/stats-illustrations)
 * Cairo, A. (2016). *The truthful art: Data, charts, and maps for communication*. New Riders.
 * Tufte, E., & Graves-Morris, P. (2001). *The visual display of quantitative information*. Graphics Press.
 
@@ -132,7 +133,7 @@ Data maps do not just encode geographic features on the visualization. They also
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       America/Chicago             
-##  date     2021-01-05                  
+##  date     2021-01-06                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package       * version date       lib source        
@@ -147,6 +148,7 @@ Data maps do not just encode geographic features on the visualization. They also
 ##  class           7.3-17  2020-04-26 [1] CRAN (R 4.0.3)
 ##  classInt        0.4-3   2020-04-07 [1] CRAN (R 4.0.0)
 ##  cli             2.2.0   2020-11-20 [1] CRAN (R 4.0.2)
+##  codetools       0.2-18  2020-11-04 [1] CRAN (R 4.0.2)
 ##  colorspace      2.0-0   2020-11-11 [1] CRAN (R 4.0.2)
 ##  crayon          1.3.4   2017-09-16 [1] CRAN (R 4.0.0)
 ##  DBI             1.1.0   2019-12-15 [1] CRAN (R 4.0.0)

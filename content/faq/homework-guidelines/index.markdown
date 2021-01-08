@@ -21,7 +21,7 @@ I assume you can [pull from and push to GitHub from RStudio](/setup/git-with-rst
 
 ## Homework workflow
 
-![](/img/homework_workflow.png)
+![](/img/homework_workflow.png)<!-- -->
 
 Homework assignments will be stored in separate Git repositories under the `uc-cfss` organization on GitHub. To complete a homework assignment, you need to:
 
@@ -100,7 +100,7 @@ Simply visiting an HTML file in a GitHub repo just shows ugly HTML source. You n
     ##  collate  en_US.UTF-8                 
     ##  ctype    en_US.UTF-8                 
     ##  tz       America/Chicago             
-    ##  date     2021-01-05                  
+    ##  date     2021-01-06                  
     ## 
     ## ─ Packages ───────────────────────────────────────────────────────────────────
     ##  package     * version date       lib source        

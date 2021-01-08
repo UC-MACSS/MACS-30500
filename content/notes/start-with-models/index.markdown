@@ -154,7 +154,7 @@ linear_reg() %>%
 
 The [documentation page for `linear_reg()`](https://tidymodels.github.io/parsnip/reference/linear_reg.html) lists the possible engines. We'll save this model object as `lm_mod`.
 
-![Artwork by @allison_horst](/img/allison_horst_art/parsnip.png)
+![](/img/allison_horst_art/parsnip.png)<!-- -->
 
 
 ```r
@@ -433,7 +433,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       America/Chicago             
-##  date     2021-01-05                  
+##  date     2021-01-06                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package      * version    date       lib source        

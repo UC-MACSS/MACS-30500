@@ -268,7 +268,7 @@ ggmap(chicago) +
 
 By default, `geom_density_2d()` draws a [**contour plot**](https://en.wikipedia.org/wiki/Contour_line) with lines of constant value. That is, each line represents approximately the same frequency of crime all along that specific line. Contour plots are frequently used in maps (known as **topographic maps**) to denote elevation.
 
-![The Cadillac Mountains. Source: [US Geological Survey](https://www.usgs.gov/media/images/cadillacmountainss)](/img/contour-map.jpg)
+![](/img/contour-map.jpg)<!-- -->
 
 Rather than drawing lines, instead we can fill in the graph so that we use the `fill` aesthetic to draw bands of crime density. To do that, we use the related function `stat_density_2d()`:
 
@@ -516,7 +516,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       America/Chicago             
-##  date     2021-01-05                  
+##  date     2021-01-06                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package      * version date       lib source        
@@ -528,7 +528,10 @@ devtools::session_info()
 ##  broom          0.7.3   2020-12-16 [1] CRAN (R 4.0.2)
 ##  callr          3.5.1   2020-10-13 [1] CRAN (R 4.0.2)
 ##  cellranger     1.1.0   2016-07-27 [1] CRAN (R 4.0.0)
+##  class          7.3-17  2020-04-26 [1] CRAN (R 4.0.3)
+##  classInt       0.4-3   2020-04-07 [1] CRAN (R 4.0.0)
 ##  cli            2.2.0   2020-11-20 [1] CRAN (R 4.0.2)
+##  codetools      0.2-18  2020-11-04 [1] CRAN (R 4.0.2)
 ##  colorspace     2.0-0   2020-11-11 [1] CRAN (R 4.0.2)
 ##  crayon         1.3.4   2017-09-16 [1] CRAN (R 4.0.0)
 ##  DBI            1.1.0   2019-12-15 [1] CRAN (R 4.0.0)
@@ -537,6 +540,7 @@ devtools::session_info()
 ##  devtools       2.3.2   2020-09-18 [1] CRAN (R 4.0.2)
 ##  digest         0.6.27  2020-10-24 [1] CRAN (R 4.0.2)
 ##  dplyr        * 1.0.2   2020-08-18 [1] CRAN (R 4.0.2)
+##  e1071          1.7-4   2020-10-14 [1] CRAN (R 4.0.2)
 ##  ellipsis       0.3.1   2020-05-15 [1] CRAN (R 4.0.0)
 ##  evaluate       0.14    2019-05-28 [1] CRAN (R 4.0.0)
 ##  fansi          0.4.1   2020-01-08 [1] CRAN (R 4.0.0)
@@ -554,6 +558,7 @@ devtools::session_info()
 ##  httr           1.4.2   2020-07-20 [1] CRAN (R 4.0.2)
 ##  jpeg           0.1-8.1 2019-10-24 [1] CRAN (R 4.0.0)
 ##  jsonlite       1.7.2   2020-12-09 [1] CRAN (R 4.0.2)
+##  KernSmooth     2.23-18 2020-10-29 [1] CRAN (R 4.0.2)
 ##  knitr          1.30    2020-09-22 [1] CRAN (R 4.0.2)
 ##  lattice        0.20-41 2020-04-02 [1] CRAN (R 4.0.3)
 ##  lifecycle      0.2.0   2020-03-06 [1] CRAN (R 4.0.0)
@@ -589,6 +594,7 @@ devtools::session_info()
 ##  rvest          0.3.6   2020-07-25 [1] CRAN (R 4.0.2)
 ##  scales         1.1.1   2020-05-11 [1] CRAN (R 4.0.0)
 ##  sessioninfo    1.1.1   2018-11-05 [1] CRAN (R 4.0.0)
+##  sf           * 0.9-6   2020-09-13 [1] CRAN (R 4.0.2)
 ##  sp             1.4-4   2020-10-07 [1] CRAN (R 4.0.2)
 ##  stringi        1.5.3   2020-09-09 [1] CRAN (R 4.0.2)
 ##  stringr      * 1.4.0   2019-02-10 [1] CRAN (R 4.0.0)
@@ -597,6 +603,7 @@ devtools::session_info()
 ##  tidyr        * 1.1.2   2020-08-27 [1] CRAN (R 4.0.2)
 ##  tidyselect     1.1.0   2020-05-11 [1] CRAN (R 4.0.0)
 ##  tidyverse    * 1.3.0   2019-11-21 [1] CRAN (R 4.0.0)
+##  units          0.6-7   2020-06-13 [1] CRAN (R 4.0.2)
 ##  usethis        2.0.0   2020-12-10 [1] CRAN (R 4.0.2)
 ##  vctrs          0.3.6   2020-12-17 [1] CRAN (R 4.0.2)
 ##  withr          2.3.0   2020-09-22 [1] CRAN (R 4.0.2)

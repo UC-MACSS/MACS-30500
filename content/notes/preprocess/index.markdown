@@ -43,7 +43,7 @@ So far we have learned to build [linear](/notes/start-with-models/) and [logisti
  
 and so on. If you are familiar with R's formula interface, a lot of this might sound familiar and like what a formula already does. Recipes can be used to do many of the same things, but they have a much wider range of possibilities. This document shows how to use recipes for modeling. 
 
-![Artwork by @allison_horst](/img/allison_horst_art/recipes.png)
+![](/img/allison_horst_art/recipes.png)<!-- -->
 
 ## General Social Survey {#gss}
 
@@ -286,7 +286,6 @@ For factors like `degree` and `owngun`, [standard practice](https://bookdown.org
 |NO      |         1|              0|
 |YES     |         0|              0|
 |REFUSED |         0|              1|
-
 
 But, unlike the standard model formula methods in R, a recipe **does not** automatically create these dummy variables for you; you'll need to tell your recipe to add this step. This is for two reasons. First, many models do not require [numeric predictors](https://bookdown.org/max/FES/categorical-trees.html), so dummy variables may not always be preferred. Second, recipes can also be used for purposes outside of modeling, where non-dummy versions of the variables may work better. For example, you may want to make a table or a plot with a variable as a single factor. For those reasons, you need to explicitly tell recipes to create dummy variables using `step_dummy()`: 
 
@@ -535,7 +534,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       America/Chicago             
-##  date     2021-01-05                  
+##  date     2021-01-06                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version    date       lib source        

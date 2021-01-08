@@ -70,7 +70,7 @@ As you might suspect from the example above, surfing the web is basically equiva
 
 Suppose, for instance, you wanted to look something up on Wikipedia. The first step would be to open your web browser and type in `http://www.wikipedia.org`. Once you hit return, you would see the page below.  
 
-![](/img/wikipedia.png)
+![](/img/wikipedia.png)<!-- -->
 
 Several different processes occurred, however, between hitting "return" and the page finally being rendered. In order:
 
@@ -846,7 +846,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       America/Chicago             
-##  date     2021-01-05                  
+##  date     2021-01-06                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package      * version date       lib source        
